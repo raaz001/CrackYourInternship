@@ -4,7 +4,7 @@ class Solution {
     string ans;
     int carry = 0;
     int i = a.length() - 1;
-    int j = b.length() - 1;
+    int j = b.length() - 1; 
 
     while (i >= 0 || j >= 0 || carry) {
       if (i >= 0)
